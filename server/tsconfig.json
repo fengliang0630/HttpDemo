@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",                  //目标是编译成javascript脚本（es5规范的）
+    "module": "commonjs",             //用的是规范是commonjs规范
+    "emitDecoratorMetadata": true,    //与装饰器有关，编译的时候保留编译器额度元数据
+    "experimentalDecorators": true,
+    "outDir": "build",                //编译完的js文件放到build里面
+    "lib": ["es6"],                    //用es6语法
+    "watch":true
+  },
+  "exclude": ["node_modules"]         //编译的时候需要排除的文件夹
+}
